@@ -1,0 +1,24 @@
+{
+  "name": "mongo-mails",
+  "version": "1.0.0",
+  "description": "",
+  "author": "anoop <anoopviswanadh007@gmail.com>",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./bin/app"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "pino": "^8.15.3",
+    "pino-http": "^8.5.0",
+    "pino-pretty": "^10.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
